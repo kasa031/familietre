@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina Sætersdal Nilssens Familietre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tree.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Karina Sætersdal Nilssens Familietre</h1>
+            <p class="header-subtitle">En reise gjennom 400+ år med familiehistorie</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#oversikt" class="nav-link">Oversikt</a></li>
+                <li><a href="#familietre" class="nav-link">Familietre</a></li>
+                <li><a href="#morsside" class="nav-link">Morsside</a></li>
+                <li><a href="#farsside" class="nav-link">Farsside</a></li>
+                <li><a href="#tidslinje" class="nav-link">Tidslinje</a></li>
+                <li><a href="#kilder" class="nav-link">Kilder</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="oversikt" class="section">
+            <div class="container">
+                <h2 class="section-title">Familietre Oversikt</h2>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <h3>Generasjoner</h3>
+                        <p class="big-number">11+</p>
+                        <p>Fra 1600-tallet til i dag</p>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Personer</h3>
+                        <p class="big-number">50+</p>
+                        <p>Dokumenterte familiemedlemmer</p>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Land</h3>
+                        <p class="big-number">3</p>
+                        <p>Norge, Sverige, USA</p>
+                    </div>
+                    <div class="overview-card">
+                        <h3>År</h3>
+                        <p class="big-number">400+</p>
+                        <p>Med dokumentert historie</p>
+                    </div>
+                </div>
+                
+                <div class="family-intro">
+                    <h3>Velkommen til vårt familietre</h3>
+                    <p>Dette familietreet sporer slekten tilbake til 1600-tallet, med røtter i Norge, Sverige og USA. Vi har dokumentert over 50 familiemedlemmer gjennom 11+ generasjoner, med detaljerte kilder og historiske hendelser.</p>
+                    
+                    <div class="family-branches">
+                        <div class="branch">
+                            <h4>🇳🇴 Morsside (Alræk/Sætersdal/Kismul)</h4>
+                            <p>Bergen og omegn, med røtter tilbake til Jacob Haukeland (ca. 1600)</p>
+                        </div>
+                        <div class="branch">
+                            <h4>🇺🇸 Farsside (Johnson/Jensen/Korperud)</h4>
+                            <p>Seattle, USA og Norge, med svenske røtter fra Bohuslen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="familietre" class="section">
+            <div class="container">
+                <h2 class="section-title">Interaktivt Familietre</h2>
+                <div class="tree-controls">
+                    <button id="toggle-maternal" class="tree-btn active">Morsside</button>
+                    <button id="toggle-paternal" class="tree-btn">Farsside</button>
+                    <button id="toggle-combined" class="tree-btn">Kombinert</button>
+                </div>
+                <div id="family-tree" class="family-tree">
+                    <!-- Familietre vil bli generert av JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="morsside" class="section">
+            <div class="container">
+                <h2 class="section-title">Morsside - Alræk/Sætersdal/Kismul</h2>
+                <div class="family-info">
+                    <h3>Hovedlinjer</h3>
+                    <ul class="family-lines">
+                        <li><strong>Alræk-linjen:</strong> Fra Kirkebø i Sogn til Bergen</li>
+                        <li><strong>Sætersdal-linjen:</strong> Fra Fana til Bergen, med akademiske tradisjoner</li>
+                        <li><strong>Kismul-linjen:</strong> Gårdsbruk i Fana, Bergen</li>
+                        <li><strong>Haukeland-linjen:</strong> Tilbake til 1600-tallet</li>
+                    </ul>
+                    
+                    <h3>Viktige personer</h3>
+                    <div class="person-cards">
+                        <div class="person-card">
+                            <h4>Leonard Olav Larsen Sætersdal</h4>
+                            <p>1913-1994 | Bergen Katedralskole, akademiker</p>
+                        </div>
+                        <div class="person-card">
+                            <h4>Olga Alræk</h4>
+                            <p>1916- | Sykepleier, utdannet på Ullevål</p>
+                        </div>
+                        <div class="person-card">
+                            <h4>Lars Marthin Larsen Sætersdal</h4>
+                            <p>Drept under andre verdenskrig på BMV Laksevåg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="farsside" class="section">
+            <div class="container">
+                <h2 class="section-title">Farsside - Johnson/Jensen/Korperud</h2>
+                <div class="family-info">
+                    <h3>Hovedlinjer</h3>
+                    <ul class="family-lines">
+                        <li><strong>Johnson-linjen:</strong> Seattle, USA - Boeing-familie</li>
+                        <li><strong>Jensen-linjen:</strong> Oslo og Fredrikstad</li>
+                        <li><strong>Korperud-linjen:</strong> Oslo, snekkermester-tradisjoner</li>
+                        <li><strong>Svenske røtter:</strong> Bohuslen, Sverige</li>
+                    </ul>
+                    
+                    <h3>Viktige personer</h3>
+                    <div class="person-cards">
+                        <div class="person-card">
+                            <h4>Ronald Keith Johnson Sr.</h4>
+                            <p>1934- | Flyingerør hos Boeing, Seattle</p>
+                        </div>
+                        <div class="person-card">
+                            <h4>Rolf Hartvig Korperud Jensen</h4>
+                            <p>1939-1992 | PhD fra Berkeley, professor</p>
+                        </div>
+                        <div class="person-card">
+                            <h4>Mathilde Cecilie Jensen</h4>
+                            <p>1876-1963 | 15 barn, grønnsaksdyrking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tidslinje" class="section">
+            <div class="container">
+                <h2 class="section-title">Familie Tidslinje</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">1600</div>
+                        <div class="timeline-content">
+                            <h4>Jacob Haukeland</h4>
+                            <p>Opprinnelse for Haukeland-slekten</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1886</div>
+                        <div class="timeline-content">
+                            <h4>Ingeborg Andrea Monsson Hope</h4>
+                            <p>Født i Masfjorden</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1913</div>
+                        <div class="timeline-content">
+                            <h4>Leonard Olav Larsen Sætersdal</h4>
+                            <p>Født, senere Bergen Katedralskole</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1944</div>
+                        <div class="timeline-content">
+                            <h4>Krigsdødsfall</h4>
+                            <p>Lars Marthin Larsen Sætersdal drept på BMV Laksevåg</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1965</div>
+                        <div class="timeline-content">
+                            <h4>Ronald Keith Johnson Jr.</h4>
+                            <p>Født i Seattle, USA</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1987</div>
+                        <div class="timeline-content">
+                            <h4>Karina Sætersdal Nilssen</h4>
+                            <p>Født - slektens nåværende representant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kilder" class="section">
+            <div class="container">
+                <h2 class="section-title">Kilder og Dokumentasjon</h2>
+                <div class="sources-grid">
+                    <div class="source-category">
+                        <h3>Digitalarkivet</h3>
+                        <ul>
+                            <li>Fødselsattester</li>
+                            <li>Dødsattester</li>
+                            <li>Giftemål</li>
+                            <li>Konfirmasjoner</li>
+                            <li>Folketellinger</li>
+                        </ul>
+                    </div>
+                    <div class="source-category">
+                        <h3>Nasjonalbiblioteket</h3>
+                        <ul>
+                            <li>Avisartikler</li>
+                            <li>Historiske publikasjoner</li>
+                            <li>Dødsannonser</li>
+                        </ul>
+                    </div>
+                    <div class="source-category">
+                        <h3>Personlige kilder</h3>
+                        <ul>
+                            <li>Familieoverleveringer</li>
+                            <li>Personlige dokumenter</li>
+                            <li>Familiemøter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Karina Sætersdal Nilssens Familietre. Alle rettigheter forbeholdt.</p>
+            <p>Dette familietreet er basert på omfattende forskning og dokumentasjon.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/tree.js"></script>
+</body>
+</html>

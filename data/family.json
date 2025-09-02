@@ -1,0 +1,322 @@
+{
+  "family": {
+    "karina": {
+      "id": "karina",
+      "name": "Karina Sætersdal Nilssen",
+      "birth": "1987-08-16",
+      "death": null,
+      "parents": ["marit", "ronald"],
+      "spouse": null,
+      "children": [],
+      "type": "current",
+      "generation": 1,
+      "description": "Slektens nåværende representant. Student i cybersikkerhet.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Student i cybersikkerhet",
+        "occupation": "Student",
+        "nationality": "Norsk"
+      }
+    },
+    "marit": {
+      "id": "marit",
+      "name": "Marit Jensen",
+      "birth": "1966-06-10",
+      "death": null,
+      "parents": ["inger", "rolf"],
+      "spouse": "ronald",
+      "children": ["karina"],
+      "type": "maternal",
+      "generation": 2,
+      "description": "Mor til Karina. Utdannet sekretær.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Utdannet sekretær",
+        "occupation": "Sekretær",
+        "nationality": "Norsk"
+      }
+    },
+    "ronald": {
+      "id": "ronald",
+      "name": "Ronald Keith Johnson Jr.",
+      "birth": "1965-08-17",
+      "death": null,
+      "parents": ["endoline", "ronald-sr"],
+      "spouse": "marit",
+      "children": ["karina"],
+      "type": "paternal",
+      "generation": 2,
+      "description": "Far til Karina. Født i Seattle, USA.",
+      "details": {
+        "birthplace": "Seattle, USA",
+        "education": "Whittier Elementary School, Ballard området",
+        "occupation": "Ukjent",
+        "nationality": "Amerikansk",
+        "addresses": [
+          "7318 8th Avenue Northwest, 98117 Seattle (0-11 år)",
+          "1116 Northwest 83rd, 98117 Seattle (11+ år)"
+        ]
+      }
+    },
+    "inger": {
+      "id": "inger",
+      "name": "Inger Martgrete Jensen",
+      "birth": "1941-03-29",
+      "death": "2022",
+      "parents": ["olga", "leonard"],
+      "spouse": "rolf",
+      "children": ["marit"],
+      "type": "maternal",
+      "generation": 3,
+      "description": "Mormor til Karina. Utdannet sekretær.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Utdannet sekretær",
+        "occupation": "Sekretær",
+        "nationality": "Norsk"
+      }
+    },
+    "rolf": {
+      "id": "rolf",
+      "name": "Rolf Hartvig Korperud Jensen",
+      "birth": "1939-08-14",
+      "death": "1992",
+      "parents": ["olga-korperud", "hartvig"],
+      "spouse": "inger",
+      "children": ["marit"],
+      "type": "paternal",
+      "generation": 3,
+      "description": "Morfar til Karina. PhD fra Berkeley, professor.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "PhD fra Berkeley",
+        "occupation": "Professor",
+        "nationality": "Norsk"
+      }
+    },
+    "olga": {
+      "id": "olga",
+      "name": "Olga Alræk",
+      "birth": "1916-08-03",
+      "death": null,
+      "parents": ["ingeborg", "ole-alrak"],
+      "spouse": "leonard",
+      "children": ["inger"],
+      "type": "maternal",
+      "generation": 4,
+      "description": "Oldemor til Karina (morsside). Sykepleier, utdannet på Ullevål.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Sykepleier, utdannet på Ullevål",
+        "occupation": "Sykepleier",
+        "nationality": "Norsk"
+      }
+    },
+    "leonard": {
+      "id": "leonard",
+      "name": "Leonard Olav Larsen Sætersdal",
+      "birth": "1913-07-19",
+      "death": "1994",
+      "parents": ["marie-kristine", "lars-marthin"],
+      "spouse": "olga",
+      "children": ["inger"],
+      "type": "maternal",
+      "generation": 4,
+      "description": "Oldefar til Karina (morsside). Bergen Katedralskole, akademiker.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Bergen Katedralskole",
+        "occupation": "Akademiker",
+        "nationality": "Norsk"
+      }
+    },
+    "olga-korperud": {
+      "id": "olga-korperud",
+      "name": "Olga Karoline Korperud",
+      "birth": "1907-07-24",
+      "death": "1994-09-22",
+      "parents": ["anna-marie", "nils-kristian"],
+      "spouse": "hartvig",
+      "children": ["rolf"],
+      "type": "paternal",
+      "generation": 4,
+      "description": "Oldemor til Karina (farsside).",
+      "details": {
+        "birthplace": "Oslo, Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent",
+        "nationality": "Norsk"
+      }
+    },
+    "hartvig": {
+      "id": "hartvig",
+      "name": "Hartvig Ludvik Jensen",
+      "birth": "1905-02-17",
+      "death": "1992-11-22",
+      "parents": ["mathilde", "jorgen"],
+      "spouse": "olga-korperud",
+      "children": ["rolf"],
+      "type": "paternal",
+      "generation": 4,
+      "description": "Oldefar til Karina (farsside).",
+      "details": {
+        "birthplace": "Fredrikstad, Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent",
+        "nationality": "Norsk"
+      }
+    },
+    "endoline": {
+      "id": "endoline",
+      "name": "Endoline Munday",
+      "birth": "1927-10-24",
+      "death": null,
+      "parents": [],
+      "spouse": "ronald-sr",
+      "children": ["ronald"],
+      "type": "paternal",
+      "generation": 3,
+      "description": "Bestemor til Karina (farsside). Født i Seattle, USA.",
+      "details": {
+        "birthplace": "Seattle, USA",
+        "education": "Ukjent",
+        "occupation": "Ukjent",
+        "nationality": "Amerikansk"
+      }
+    },
+    "ronald-sr": {
+      "id": "ronald-sr",
+      "name": "Ronald Keith Johnson Sr.",
+      "birth": "1934-02-04",
+      "death": null,
+      "parents": ["elmer", "chrystal"],
+      "spouse": "endoline",
+      "children": ["ronald"],
+      "type": "paternal",
+      "generation": 3,
+      "description": "Bestefar til Karina (farsside). Flyingerør hos Boeing.",
+      "details": {
+        "birthplace": "Seattle, USA",
+        "education": "Ukjent",
+        "occupation": "Flyingerør hos Boeing",
+        "nationality": "Amerikansk"
+      }
+    },
+    "elmer": {
+      "id": "elmer",
+      "name": "Elmer Johnson",
+      "birth": null,
+      "death": null,
+      "parents": [],
+      "spouse": "chrystal",
+      "children": ["ronald-sr"],
+      "type": "paternal",
+      "generation": 4,
+      "description": "Oldefar til Karina (farsside).",
+      "details": {
+        "birthplace": "USA",
+        "education": "Ukjent",
+        "occupation": "Ukjent",
+        "nationality": "Amerikansk"
+      }
+    },
+    "chrystal": {
+      "id": "chrystal",
+      "name": "Chrystal Johnson",
+      "birth": null,
+      "death": null,
+      "parents": [],
+      "spouse": "elmer",
+      "children": ["ronald-sr"],
+      "type": "paternal",
+      "generation": 4,
+      "description": "Oldemor til Karina (farsside).",
+      "details": {
+        "birthplace": "USA",
+        "education": "Ukjent",
+        "occupation": "Ukjent",
+        "nationality": "Amerikansk"
+      }
+    },
+    "ingeborg": {
+      "id": "ingeborg",
+      "name": "Ingeborg Andrea Monsson Hope",
+      "birth": "1886-06-24",
+      "death": "1958",
+      "parents": ["mons", "johanna"],
+      "spouse": "ole-alrak",
+      "children": ["olga"],
+      "type": "maternal",
+      "generation": 5,
+      "description": "Tippoldemor til Karina (morsside). Født i Masfjorden.",
+      "details": {
+        "birthplace": "Masfjorden, Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent",
+        "nationality": "Norsk"
+      }
+    },
+    "ole-alrak": {
+      "id": "ole-alrak",
+      "name": "Ole Jacobsen Alræk",
+      "birth": "1886-07-03",
+      "death": "1964",
+      "parents": ["gjertrud", "jakob"],
+      "spouse": "ingeborg",
+      "children": ["olga"],
+      "type": "maternal",
+      "generation": 5,
+      "description": "Tippoldefar til Karina (morsside).",
+      "details": {
+        "birthplace": "Kirkebø i Sogn, Norge",
+        "education": "Ukjent",
+        "occupation": "Murer, brannkonstabel",
+        "nationality": "Norsk"
+      }
+    },
+    "marie-kristine": {
+      "id": "marie-kristine",
+      "name": "Marie Kristine Olsdtr. Kismul",
+      "birth": "1885-05-19",
+      "death": null,
+      "parents": ["ole-thomassen", "eli"],
+      "spouse": "lars-marthin",
+      "children": ["leonard"],
+      "type": "maternal",
+      "generation": 5,
+      "description": "Tippoldemor til Karina (morsside).",
+      "details": {
+        "birthplace": "Fana, Bergen, Norge",
+        "education": "Ukjent",
+        "occupation": "Husmor",
+        "nationality": "Norsk"
+      }
+    },
+    "lars-marthin": {
+      "id": "lars-marthin",
+      "name": "Lars Marthin Larsen Sætersdal",
+      "birth": "1885-06-17",
+      "death": "1944-09-11",
+      "parents": ["lars-andreas", "hansine"],
+      "spouse": "marie-kristine",
+      "children": ["leonard"],
+      "type": "maternal",
+      "generation": 5,
+      "description": "Tippoldefar til Karina (morsside). Drept under andre verdenskrig på BMV Laksevåg.",
+      "details": {
+        "birthplace": "Fana, Bergen, Norge",
+        "education": "Ukjent",
+        "occupation": "Arbeider ved BMV Laksevåg",
+        "nationality": "Norsk",
+        "death_cause": "Drept under alliert bombing av flytedokk ved BMV Laksevåg"
+      }
+    }
+  },
+  "metadata": {
+    "total_persons": 50,
+    "generations": 11,
+    "countries": ["Norge", "Sverige", "USA"],
+    "time_span": "1600-2024",
+    "last_updated": "2024"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "family": {
+    "karina": {
+      "name": "Karina Sætersdal Nilssen",
+      "birth": "1987-08-16",
+      "death": null,
+      "parents": ["marit", "ronald"],
+      "spouse": null,
+      "children": [],
+      "type": "current",
+      "description": "Slektens nåværende representant. Student i cybersikkerhet.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Student i cybersikkerhet",
+        "occupation": "Student"
+      }
+    },
+    "marit": {
+      "name": "Marit Jensen",
+      "birth": "1966-06-10",
+      "death": null,
+      "parents": ["inger", "rolf"],
+      "spouse": "ronald",
+      "children": ["karina"],
+      "type": "maternal",
+      "description": "Mor til Karina. Utdannet sekretær.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Utdannet sekretær",
+        "occupation": "Sekretær"
+      }
+    },
+    "ronald": {
+      "name": "Ronald Keith Johnson Jr.",
+      "birth": "1965-08-17",
+      "death": null,
+      "parents": ["endoline", "ronald-sr"],
+      "spouse": "marit",
+      "children": ["karina"],
+      "type": "paternal",
+      "description": "Far til Karina. Født i Seattle, USA.",
+      "details": {
+        "birthplace": "Seattle, USA",
+        "education": "Whittier Elementary School, Ballard området",
+        "occupation": "Ukjent",
+        "addresses": [
+          "7318 8th Avenue Northwest, 98117 Seattle (0-11 år)",
+          "1116 Northwest 83rd, 98117 Seattle (11+ år)"
+        ]
+      }
+    },
+    "inger": {
+      "name": "Inger Martgrete Jensen",
+      "birth": "1941-03-29",
+      "death": "2022",
+      "parents": ["olga", "leonard"],
+      "spouse": "rolf",
+      "children": ["marit"],
+      "type": "maternal",
+      "description": "Mormor til Karina. Utdannet sekretær.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Utdannet sekretær",
+        "occupation": "Sekretær"
+      }
+    },
+    "rolf": {
+      "name": "Rolf Hartvig Korperud Jensen",
+      "birth": "1939-08-14",
+      "death": "1992",
+      "parents": ["olga-korperud", "hartvig"],
+      "spouse": "inger",
+      "children": ["marit"],
+      "type": "paternal",
+      "description": "Morfar til Karina. PhD fra Berkeley, professor.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "PhD fra Berkeley",
+        "occupation": "Professor"
+      }
+    },
+    "olga": {
+      "name": "Olga Alræk",
+      "birth": "1916-08-03",
+      "death": null,
+      "parents": ["ingeborg", "ole-alrak"],
+      "spouse": "leonard",
+      "children": ["inger"],
+      "type": "maternal",
+      "description": "Oldemor til Karina (morsside). Sykepleier, utdannet på Ullevål.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Sykepleier, utdannet på Ullevål",
+        "occupation": "Sykepleier"
+      }
+    },
+    "leonard": {
+      "name": "Leonard Olav Larsen Sætersdal",
+      "birth": "1913-07-19",
+      "death": "1994",
+      "parents": ["marie-kristine", "lars-marthin"],
+      "spouse": "olga",
+      "children": ["inger"],
+      "type": "maternal",
+      "description": "Oldefar til Karina (morsside). Bergen Katedralskole, akademiker.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Bergen Katedralskole",
+        "occupation": "Akademiker"
+      }
+    },
+    "olgaKorperud": {
+      "name": "Olga Karoline Korperud",
+      "birth": "1907-07-24",
+      "death": "1994-09-22",
+      "parents": ["anna-marie", "nils-kristian"],
+      "spouse": "hartvig",
+      "children": ["rolf"],
+      "type": "paternal",
+      "description": "Oldemor til Karina (farsside).",
+      "details": {
+        "birthplace": "Oslo, Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent"
+      }
+    },
+    "hartvig": {
+      "name": "Hartvig Ludvik Jensen",
+      "birth": "1905-02-17",
+      "death": "1992-11-22",
+      "parents": ["mathilde", "jorgen"],
+      "spouse": "olga-korperud",
+      "children": ["rolf"],
+      "type": "paternal",
+      "description": "Oldefar til Karina (farsside).",
+      "details": {
+        "birthplace": "Fredrikstad, Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent"
+      }
+    },
+    "endoline": {
+      "name": "Endoline Munday",
+      "birth": "1927-10-24",
+      "death": null,
+      "parents": [],
+      "spouse": "ronald-sr",
+      "children": ["ronald"],
+      "type": "paternal",
+      "description": "Bestemor til Karina (farsside). Født i Seattle, USA.",
+      "details": {
+        "birthplace": "Seattle, USA",
+        "education": "Ukjent",
+        "occupation": "Ukjent"
+      }
+    },
+    "ronaldSr": {
+      "name": "Ronald Keith Johnson Sr.",
+      "birth": "1934-02-04",
+      "death": null,
+      "parents": ["elmer", "chrystal"],
+      "spouse": "endoline",
+      "children": ["ronald"],
+      "type": "paternal",
+      "description": "Bestefar til Karina (farsside). Flyingerør hos Boeing.",
+      "details": {
+        "birthplace": "Seattle, USA",
+        "education": "Ukjent",
+        "occupation": "Flyingerør hos Boeing"
+      }
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2024-12-19",
+    "version": "1.0",
+    "description": "Familietre for Karina Sætersdal Nilssen",
+    "totalPersons": 12
+  }
+}
