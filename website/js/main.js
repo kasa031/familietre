@@ -158,6 +158,11 @@ function updateTreeDisplay(type) {
 }
 
 function generateMaternalTree() {
+    if (typeof generateEnhancedMaternalTree === 'function') {
+        return generateEnhancedMaternalTree();
+    }
+    
+    // Fallback tree
     return `
         <div class="tree-container">
             <div class="tree-legend">
@@ -167,13 +172,13 @@ function generateMaternalTree() {
                 </div>
                 <div class="legend-item">
                     <div class="legend-color current"></div>
-                    <span>Karina</span>
+                    <span>Nåværende representant</span>
                 </div>
             </div>
             
             <div class="tree-generation">
-                <div class="tree-person current" data-person="karina">
-                    <div class="tree-person-name">Karina Sætersdal Nilssen</div>
+                <div class="tree-person current" data-person="current">
+                    <div class="tree-person-name">Familie Representant</div>
                     <div class="tree-person-dates">1987-</div>
                     <div class="tree-person-relation">Slektens representant</div>
                 </div>
@@ -182,60 +187,25 @@ function generateMaternalTree() {
             <div class="tree-connection maternal"></div>
             
             <div class="tree-generation">
-                <div class="tree-person maternal" data-person="marit">
-                    <div class="tree-person-name">Marit Jensen</div>
+                <div class="tree-person maternal" data-person="parent1">
+                    <div class="tree-person-name">Mor</div>
                     <div class="tree-person-dates">1966-</div>
                     <div class="tree-person-relation">Mor</div>
                 </div>
-                <div class="tree-person" data-person="ronald">
-                    <div class="tree-person-name">Ronald Keith Johnson Jr.</div>
-                    <div class="tree-person-dates">1965-</div>
-                    <div class="tree-person-relation">Far</div>
-                </div>
             </div>
             
             <div class="tree-connection maternal"></div>
             
             <div class="tree-generation">
-                <div class="tree-person maternal" data-person="inger">
-                    <div class="tree-person-name">Inger Martgrete Jensen</div>
+                <div class="tree-person maternal" data-person="grandparent1">
+                    <div class="tree-person-name">Mormor</div>
                     <div class="tree-person-dates">1941-2022</div>
                     <div class="tree-person-relation">Mormor</div>
                 </div>
-                <div class="tree-person" data-person="rolf">
-                    <div class="tree-person-name">Rolf Hartvig Korperud Jensen</div>
+                <div class="tree-person" data-person="grandparent2">
+                    <div class="tree-person-name">Morfar</div>
                     <div class="tree-person-dates">1939-1992</div>
                     <div class="tree-person-relation">Morfar</div>
-                </div>
-            </div>
-            
-            <div class="tree-connection maternal"></div>
-            
-            <div class="tree-generation">
-                <div class="tree-person maternal" data-person="olga">
-                    <div class="tree-person-name">Olga Alræk</div>
-                    <div class="tree-person-dates">1916-</div>
-                    <div class="tree-person-relation">Oldemor</div>
-                </div>
-                <div class="tree-person maternal" data-person="leonard">
-                    <div class="tree-person-name">Leonard Olav Larsen Sætersdal</div>
-                    <div class="tree-person-dates">1913-1994</div>
-                    <div class="tree-person-relation">Oldefar</div>
-                </div>
-            </div>
-            
-            <div class="tree-connection maternal"></div>
-            
-            <div class="tree-generation">
-                <div class="tree-person maternal" data-person="ingeborg">
-                    <div class="tree-person-name">Ingeborg Andrea Monsson Hope</div>
-                    <div class="tree-person-dates">1886-1958</div>
-                    <div class="tree-person-relation">Tippoldemor</div>
-                </div>
-                <div class="tree-person maternal" data-person="ole">
-                    <div class="tree-person-name">Ole Jacobsen Alræk</div>
-                    <div class="tree-person-dates">1886-1964</div>
-                    <div class="tree-person-relation">Tippoldefar</div>
                 </div>
             </div>
         </div>
@@ -243,6 +213,11 @@ function generateMaternalTree() {
 }
 
 function generatePaternalTree() {
+    if (typeof generateEnhancedPaternalTree === 'function') {
+        return generateEnhancedPaternalTree();
+    }
+    
+    // Fallback tree
     return `
         <div class="tree-container">
             <div class="tree-legend">
@@ -252,13 +227,13 @@ function generatePaternalTree() {
                 </div>
                 <div class="legend-item">
                     <div class="legend-color current"></div>
-                    <span>Karina</span>
+                    <span>Nåværende representant</span>
                 </div>
             </div>
             
             <div class="tree-generation">
-                <div class="tree-person current" data-person="karina">
-                    <div class="tree-person-name">Karina Sætersdal Nilssen</div>
+                <div class="tree-person current" data-person="current">
+                    <div class="tree-person-name">Familie Representant</div>
                     <div class="tree-person-dates">1987-</div>
                     <div class="tree-person-relation">Slektens representant</div>
                 </div>
@@ -267,13 +242,8 @@ function generatePaternalTree() {
             <div class="tree-connection paternal"></div>
             
             <div class="tree-generation">
-                <div class="tree-person" data-person="marit">
-                    <div class="tree-person-name">Marit Jensen</div>
-                    <div class="tree-person-dates">1966-</div>
-                    <div class="tree-person-relation">Mor</div>
-                </div>
-                <div class="tree-person paternal" data-person="ronald">
-                    <div class="tree-person-name">Ronald Keith Johnson Jr.</div>
+                <div class="tree-person paternal" data-person="parent2">
+                    <div class="tree-person-name">Far</div>
                     <div class="tree-person-dates">1965-</div>
                     <div class="tree-person-relation">Far</div>
                 </div>
@@ -282,45 +252,10 @@ function generatePaternalTree() {
             <div class="tree-connection paternal"></div>
             
             <div class="tree-generation">
-                <div class="tree-person" data-person="inger">
-                    <div class="tree-person-name">Inger Martgrete Jensen</div>
-                    <div class="tree-person-dates">1941-2022</div>
-                    <div class="tree-person-relation">Mormor</div>
-                </div>
-                <div class="tree-person" data-person="rolf">
-                    <div class="tree-person-name">Rolf Hartvig Korperud Jensen</div>
-                    <div class="tree-person-dates">1939-1992</div>
-                    <div class="tree-person-relation">Morfar</div>
-                </div>
-            </div>
-            
-            <div class="tree-connection paternal"></div>
-            
-            <div class="tree-generation">
-                <div class="tree-person" data-person="olga-korperud">
-                    <div class="tree-person-name">Olga Karoline Korperud</div>
-                    <div class="tree-person-dates">1907-1994</div>
-                    <div class="tree-person-relation">Oldemor</div>
-                </div>
-                <div class="tree-person" data-person="hartvig">
-                    <div class="tree-person-name">Hartvig Ludvik Jensen</div>
-                    <div class="tree-person-dates">1905-1992</div>
-                    <div class="tree-person-relation">Oldefar</div>
-                </div>
-            </div>
-            
-            <div class="tree-connection paternal"></div>
-            
-            <div class="tree-generation">
-                <div class="tree-person" data-person="anna-marie">
-                    <div class="tree-person-name">Anna Marie Olsdtr</div>
-                    <div class="tree-person-dates">1878-1953</div>
-                    <div class="tree-person-relation">Tippoldemor</div>
-                </div>
-                <div class="tree-person" data-person="nils-kristian">
-                    <div class="tree-person-name">Nils Kristian Karlsen Korperud</div>
-                    <div class="tree-person-dates">1883-1916</div>
-                    <div class="tree-person-relation">Tippoldefar</div>
+                <div class="tree-person paternal">
+                    <div class="tree-person-name">Besteforeldre (farsside)</div>
+                    <div class="tree-person-dates">1930-1990</div>
+                    <div class="tree-person-relation">Besteforeldre</div>
                 </div>
             </div>
         </div>
@@ -328,6 +263,11 @@ function generatePaternalTree() {
 }
 
 function generateCombinedTree() {
+    if (typeof generateEnhancedCombinedTree === 'function') {
+        return generateEnhancedCombinedTree();
+    }
+    
+    // Fallback tree
     return `
         <div class="tree-container">
             <div class="tree-legend">
@@ -341,13 +281,13 @@ function generateCombinedTree() {
                 </div>
                 <div class="legend-item">
                     <div class="legend-color current"></div>
-                    <span>Karina</span>
+                    <span>Nåværende representant</span>
                 </div>
             </div>
             
             <div class="tree-generation">
-                <div class="tree-person current" data-person="karina">
-                    <div class="tree-person-name">Karina Sætersdal Nilssen</div>
+                <div class="tree-person current" data-person="current">
+                    <div class="tree-person-name">Familie Representant</div>
                     <div class="tree-person-dates">1987-</div>
                     <div class="tree-person-relation">Slektens representant</div>
                 </div>
@@ -356,13 +296,13 @@ function generateCombinedTree() {
             <div class="tree-connection"></div>
             
             <div class="tree-generation">
-                <div class="tree-person maternal" data-person="marit">
-                    <div class="tree-person-name">Marit Jensen</div>
+                <div class="tree-person maternal" data-person="parent1">
+                    <div class="tree-person-name">Mor</div>
                     <div class="tree-person-dates">1966-</div>
                     <div class="tree-person-relation">Mor</div>
                 </div>
-                <div class="tree-person paternal" data-person="ronald">
-                    <div class="tree-person-name">Ronald Keith Johnson Jr.</div>
+                <div class="tree-person paternal" data-person="parent2">
+                    <div class="tree-person-name">Far</div>
                     <div class="tree-person-dates">1965-</div>
                     <div class="tree-person-relation">Far</div>
                 </div>
@@ -371,40 +311,15 @@ function generateCombinedTree() {
             <div class="tree-connection"></div>
             
             <div class="tree-generation">
-                <div class="tree-person maternal" data-person="inger">
-                    <div class="tree-person-name">Inger Martgrete Jensen</div>
+                <div class="tree-person maternal" data-person="grandparent1">
+                    <div class="tree-person-name">Mormor</div>
                     <div class="tree-person-dates">1941-2022</div>
                     <div class="tree-person-relation">Mormor</div>
                 </div>
-                <div class="tree-person" data-person="rolf">
-                    <div class="tree-person-name">Rolf Hartvig Korperud Jensen</div>
+                <div class="tree-person" data-person="grandparent2">
+                    <div class="tree-person-name">Morfar</div>
                     <div class="tree-person-dates">1939-1992</div>
                     <div class="tree-person-relation">Morfar</div>
-                </div>
-            </div>
-            
-            <div class="tree-connection"></div>
-            
-            <div class="tree-generation">
-                <div class="tree-person maternal" data-person="olga">
-                    <div class="tree-person-name">Olga Alræk</div>
-                    <div class="tree-person-dates">1916-</div>
-                    <div class="tree-person-relation">Oldemor (morsside)</div>
-                </div>
-                <div class="tree-person maternal" data-person="leonard">
-                    <div class="tree-person-name">Leonard Olav Larsen Sætersdal</div>
-                    <div class="tree-person-dates">1913-1994</div>
-                    <div class="tree-person-relation">Oldefar (morsside)</div>
-                </div>
-                <div class="tree-person" data-person="olga-korperud">
-                    <div class="tree-person-name">Olga Karoline Korperud</div>
-                    <div class="tree-person-dates">1907-1994</div>
-                    <div class="tree-person-relation">Oldemor (farsside)</div>
-                </div>
-                <div class="tree-person" data-person="hartvig">
-                    <div class="tree-person-name">Hartvig Ludvik Jensen</div>
-                    <div class="tree-person-dates">1905-1992</div>
-                    <div class="tree-person-relation">Oldefar (farsside)</div>
                 </div>
             </div>
         </div>

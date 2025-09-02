@@ -43,7 +43,7 @@ const familyData = {
         description: "Far til Karina. Født i Seattle, USA.",
         details: {
             birthplace: "Seattle, USA",
-            education: "Whittier Elementary School, Ballard området",
+            education: "Whittier Elementary School (Ballard), St. Louis Catholic High School (Honolulu, Hawaii 1979-1980), Blanchet High School (Ballard 1981-1982), Ballard High School (ikke fullført)",
             occupation: "Ukjent",
             addresses: [
                 "7318 8th Avenue Northwest, 98117 Seattle (0-11 år)",
