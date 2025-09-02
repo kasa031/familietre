@@ -1,0 +1,146 @@
+{
+  "family": {
+    "current": {
+      "name": "Familie Representant",
+      "birth": "1987",
+      "death": null,
+      "parents": ["parent1", "parent2"],
+      "spouse": null,
+      "children": [],
+      "type": "current",
+      "description": "Slektens nåværende representant.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Student",
+        "occupation": "Student"
+      }
+    },
+    "parent1": {
+      "name": "Mor",
+      "birth": "1966",
+      "death": null,
+      "parents": ["grandparent1", "grandparent2"],
+      "spouse": "parent2",
+      "children": ["current"],
+      "type": "maternal",
+      "description": "Mor til slektens representant.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Utdannet",
+        "occupation": "Arbeider"
+      }
+    },
+    "parent2": {
+      "name": "Far",
+      "birth": "1965",
+      "death": null,
+      "parents": ["grandparent3", "grandparent4"],
+      "spouse": "parent1",
+      "children": ["current"],
+      "type": "paternal",
+      "description": "Far til slektens representant.",
+      "details": {
+        "birthplace": "USA",
+        "education": "Grunnskole",
+        "occupation": "Arbeider"
+      }
+    },
+    "grandparent1": {
+      "name": "Mormor",
+      "birth": "1941",
+      "death": "2022",
+      "parents": ["greatgrandparent1", "greatgrandparent2"],
+      "spouse": "grandparent2",
+      "children": ["parent1"],
+      "type": "maternal",
+      "description": "Mormor til slektens representant.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Utdannet",
+        "occupation": "Arbeider"
+      }
+    },
+    "grandparent2": {
+      "name": "Morfar",
+      "birth": "1939",
+      "death": "1992",
+      "parents": ["greatgrandparent3", "greatgrandparent4"],
+      "spouse": "grandparent1",
+      "children": ["parent1"],
+      "type": "paternal",
+      "description": "Morfar til slektens representant. Professor.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "PhD",
+        "occupation": "Professor"
+      }
+    },
+    "greatgrandparent1": {
+      "name": "Oldemor (morsside)",
+      "birth": "1916",
+      "death": null,
+      "parents": ["ancestor1", "ancestor2"],
+      "spouse": "greatgrandparent2",
+      "children": ["grandparent1"],
+      "type": "maternal",
+      "description": "Oldemor til slektens representant. Sykepleier.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Sykepleier",
+        "occupation": "Sykepleier"
+      }
+    },
+    "greatgrandparent2": {
+      "name": "Oldefar (morsside)",
+      "birth": "1913",
+      "death": "1994",
+      "parents": ["ancestor3", "ancestor4"],
+      "spouse": "greatgrandparent1",
+      "children": ["grandparent1"],
+      "type": "maternal",
+      "description": "Oldefar til slektens representant. Akademiker.",
+      "details": {
+        "birthplace": "Bergen, Norge",
+        "education": "Bergen Katedralskole",
+        "occupation": "Akademiker"
+      }
+    },
+    "ancestor1": {
+      "name": "Tippoldemor",
+      "birth": "1886",
+      "death": "1958",
+      "parents": [],
+      "spouse": "ancestor2",
+      "children": ["greatgrandparent1"],
+      "type": "maternal",
+      "description": "Tippoldemor til slektens representant.",
+      "details": {
+        "birthplace": "Masfjorden, Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent"
+      }
+    },
+    "ancestor2": {
+      "name": "Tippoldefar",
+      "birth": "1886",
+      "death": "1964",
+      "parents": [],
+      "spouse": "ancestor1",
+      "children": ["greatgrandparent1"],
+      "type": "maternal",
+      "description": "Tippoldefar til slektens representant.",
+      "details": {
+        "birthplace": "Norge",
+        "education": "Ukjent",
+        "occupation": "Ukjent"
+      }
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2024-12-19",
+    "version": "1.0-public",
+    "description": "Anonymisert familietre for offentlig publisering",
+    "totalPersons": 10,
+    "privacyNote": "Denne versjonen har anonymiserte opplysninger for å beskytte personvernet til levende personer"
+  }
+}

@@ -1,0 +1,26 @@
+# Personvern - Ikke commit sensitive data
+website/data/family.json
+website/index.html
+README.md
+
+# Backup filer
+*.bak
+*.backup
+*~
+
+# IDE filer
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS filer
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
